@@ -1,51 +1,111 @@
--- import: fifthtry.github.io/font-template/assets
+-- import: fifthtry.github.io/package-doc/doc as pd
+-- import: fifthtry.github.io/package-doc/forest-theme as ds
+-- import: <user_name>.github.io/<repo_name>/custom
+-- import: fifthtry.github.io/package-doc/footer
 
 
 
--- ds.page: Welcome to your [FASTN site](https://fastn.io/)
 
--- ftd.column:
-align-self: center
+-- ds.page: 
+show-footer: true
+site-name: `<repo_name>` Font Package
 
--- chat.message-left: Yo! I am Amit Upadhyay, CEO of FifthTry, welcome to the new world of FTD.
+-- ds.page.footer:
 
--- ds.markdown: 
+-- footer.fastn-footer:
 
-You reached the right place, and from here let me assure you, your FTD journey is going superfast. 🙂
+-- end: ds.page.footer
 
--- end: chat.message-left
+-- pd.package: FTD <repo_name> package
+name: fifthtry.github.io/$<repo_name>
 
--- chat.message-right:  😊 Liking this chat component?
+This FTD font `<repo_name>` can be used for your ftd web projects. 
 
--- ds.markdown:
+To Use this <repo_name> inside `FTD` project visit [<repo_name>-typography](fifthtry.github.io/<repo_name>-typography).
 
-[Click here to learn more](https://fifthtry.github.io/bling/chat/)
-👍
+-- ds.h3: <repo_name> various sizes
 
--- end: chat.message-right
+-- ftd.text: 
+role: $custom.<repo_name>-size-12-400
+color: $inherited.colors.text-strong
 
--- end: ftd.column
+`font-size: 12px, font-weight: 400` 
 
--- ds.h1: How to use?
-
-It's very simple like making a sandwich. Create new `.ftd` file and just say:
-
--- ds.code: `-- ds.page` 
-lang: ftd
-
-\-- ds.page: Your page title goes here
-
-Your page content goes here.
+👉 The quick brown fox jumps over the lazy dog 
 
 
--- ds.h1: Need sidebar at right side of page?
+-- ftd.text: 
+role: $custom.<repo_name>-size-12-800
+color: $inherited.colors.text-strong
 
-Here it is, [use this document](https://fifthtry.github.io/doc-site/docs/right-sidebar/).
+`font-size: 12px, font-weight: 500` 
+
+👉 The quick brown fox jumps over the lazy dog 
+
+-- ftd.text: 
+role: $custom.<repo_name>-size-12-800
+color: $inherited.colors.text-strong
+
+`font-size: 12px, font-weight: 800` 
+
+👉 The quick brown fox jumps over the lazy dog 
 
 
--- ds.h1: 👀 Learn FTD and become a pro?
+-- ftd.text: 
+role: $custom.<repo_name>-size-18-400
+color: $inherited.colors.text-strong
 
-You are one click away, just check [our documentation](https://fastn.dev/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+`font-size: 18px, font-weight: 400` 
+
+👉 The quick brown fox jumps over the lazy dog 
+
+-- ftd.text: 
+role: $custom.<repo_name>-size-18-500
+color: $inherited.colors.text-strong
+
+`font-size: 18px, font-weight: 500` 
+
+👉 The quick brown fox jumps over the lazy dog 
+
+-- ftd.text: 
+role: $custom.<repo_name>-size-18-800
+color: $inherited.colors.text-strong
+
+`font-size: 18px, font-weight: 800` 
+
+👉 The quick brown fox jumps over the lazy dog 
+
+-- ftd.text: 
+role: $custom.<repo_name>-size-48-400
+color: $inherited.colors.text-strong
+
+`font-size: 48px, font-weight: 400` 
+
+👉 The quick brown fox jumps over the lazy dog 
+
+-- ftd.text: 
+role: $custom.<repo_name>-size-48-500
+color: $inherited.colors.text-strong
+
+`font-size: 48px, font-weight: 500` 
+
+👉 The quick brown fox jumps over the lazy dog 
+
+-- ftd.text:
+role: $custom.<repo_name>-size-48-800
+color: $inherited.colors.text-strong
+
+`font-size: 48px, font-weight: 800` 
+
+👉 The quick brown fox jumps over the lazy dog 
 
 -- end: ds.page
+
+
+
+
+
+
+
+
+

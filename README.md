@@ -1,13 +1,6 @@
 # Welcome to your [FASTN site](https://fastn.io/)
 
-FASTN Blank Package Template Repo
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/fifthtry/fastn-heroku&env[DOWNLOAD_BASE_URL]=https://raw.githubusercontent.com/fifthtry/font-template/main/)
-
-
-> 🧑‍🚀 **Seasoned traveler?** update this file. Enjoy!
-
-![doc-site](doc-site-example.png)
+FTD Font Package Template Repo
 
 
 ## 🚀 Project Structure
