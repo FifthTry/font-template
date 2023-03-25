@@ -55,11 +55,11 @@ lang: ftd
 How to use `ftd.type` to create a custom font `types` using <repo_name>? 
 
 We don't recommend creating custom types. We recommend to use 
-our [<repo_name>-typography](fifthtry.github.io/<repo_name>-typography)
+our [<repo_name>-typography](<user_name>.github.io/<repo_name>-typography)
 
-If you're using [<repo_name>-typography](fifthtry.github.io/<repo_name>-typography) 
+If you're using [<repo_name>-typography](<user_name>.github.io/<repo_name>-typography) 
 and still your designer has introduced new font size which is not included or 
-part of our [<repo_name>-typography](fifthtry.github.io/<repo_name>-typography) 
+part of our [<repo_name>-typography](<user_name>.github.io/<repo_name>-typography) 
 then only define custom types. 
 
 We hope you shouldn't need to define a custom type.
