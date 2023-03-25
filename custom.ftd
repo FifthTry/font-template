@@ -23,7 +23,7 @@ site-name: `<repo_name>` Font Package
 -- end: ds.page.footer
 
 -- pd.package: FTD <repo_name> package
-name: fifthtry.github.io/<repo_name>
+name: <user_name>.github.io/<repo_name>
 
 This FTD font `<repo_name>` package is for your ftd web projects. To Use this
 <repo_name> inside `FTD` project follow below instructions.
