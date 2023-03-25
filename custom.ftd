@@ -14,7 +14,7 @@
 
 -- ds.page: 
 show-footer: true
-site-name: `<repo_name>` Font Package
+site-name: `<repo_name>`
 
 -- ds.page.footer:
 
