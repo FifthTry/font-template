@@ -84,7 +84,7 @@ font-family: $<repo_name>-assets.fonts.<font-name>
 desktop: $<repo_name>-size-12-desktop
 mobile: $<repo_name>-size-12-mobile
 
--- ftd.text: 
+\-- ftd.text: 
 role: $<repo_name>-size-12-400
 color: $inherited.colors.text-strong
 
