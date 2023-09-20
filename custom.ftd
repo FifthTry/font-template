@@ -1,7 +1,4 @@
 -- import: <user_name>.github.io/<repo_name>/assets as <repo_name>-assets
--- import: fifthtry.github.io/package-doc/doc as pd
--- import: fifthtry.github.io/package-doc/forest-theme as ds
--- import: fifthtry.github.io/package-doc/footer
 
 ;; ⚠️fastn-builders::⚠️ before using this file please find and replace <font-name>
 ;; with font name you have given inside 
@@ -12,30 +9,23 @@
 
 
 
--- ds.page: 
-show-footer: true
-site-name: `<repo_name>`
-
--- ds.page.footer:
-
--- footer.fastn-footer:
-
--- end: ds.page.footer
-
--- pd.package: FTD <repo_name> package
-name: <user_name>.github.io/<repo_name>
+-- site-doc.doc-home: FTD <repo_name> package
+site-title: `<repo_name>`
+show-tabs: false
+github-url: <user_name>.github.io/<repo_name>
+current-package: <user_name>.github.io/<repo_name>
 
 This FTD font `<repo_name>` package is for your ftd web projects. To Use this
 <repo_name> inside `FTD` project follow below instructions.
 
--- ds.h3: How to use <repo_name>?
+-- site-doc.header: How to use <repo_name>?
 
--- ds.code: Add this to your FASTN.ftd
+-- cb.code: Add this to your FASTN.ftd
 lang: ftd
 
 \-- fastn.dependency: <user_name>.github.io/<repo_name>
 
--- ds.markdown: 
+-- site-doc.header: Next step:
 
 After adding <repo_name> dependency inside your `FASTN.ftd` file, You need to
 add <repo_name> assets and import it inside your `.ftd` files where you are
@@ -43,15 +33,12 @@ using this font for your custom font types.
 
 To include <repo_name> into your `ftd` file follow below instructions.
 
--- ds.code:
+-- cb.code:
 lang: ftd
 
 \-- import: <user_name>.github.io/<repo_name>/assets as <repo_name>-assets
 
-
--- ds.h3: How to create a custom <repo_name> type? 
-
--- ds.markdown: 
+-- site-doc.header: How to create a custom <repo_name> type? 
 
 We don't recommend creating custom types. We recommend to use 
 our [<repo_name>-typography](https://<user_name>.github.io/<repo_name>-typography)
@@ -65,15 +52,14 @@ We hope you shouldn't need to define a custom type.
 
 Below is an example of creating a custom `ftd.type` using <repo_name>.
 
--- ds.rendered:
+/-- cb.rendered: Demo:
 
--- ds.rendered.input:
+-- cb.rendered.input:
 
 \-- ftd.type <repo_name>-size-12-desktop:
 size.px: 12
 weight: 400
 font-family: $<repo_name>-assets.fonts.<font-name>
-
 
 \-- ftd.type <repo_name>-size-12-mobile:
 size.px: 12
@@ -92,7 +78,10 @@ color: $inherited.colors.text-strong
 
 👉 The quick brown fox jumps over the lazy dog 
 
--- ds.rendered.output:
+-- cb.rendered.output:
+
+-- site-doc.output:
+colors: $ftd.default-colors
 
 -- ftd.text: 
 role: $<repo_name>-size-12-400
@@ -102,11 +91,13 @@ color: $inherited.colors.text-strong
 
 👉 The quick brown fox jumps over the lazy dog 
 
--- end: ds.rendered.output
+-- end: site-doc.output
 
--- end: ds.rendered
+-- end: cb.rendered.output
 
--- end: ds.page
+-- end: cb.rendered
+
+-- end: site-doc.doc-home
 
 
 
